@@ -1,0 +1,44 @@
+yum install git
+ 1271  git --version
+ 1272  yum groupinstall "Development Tools"
+ 1273  git config --global user.name "Anson Rodriguez"
+ 1274  git config --global user.email "ansonjonelgmail.com"
+ 1275  git config --global user.email "ansonjonel@gmail.com"
+ 1276  git config --list
+ 1277  pwd
+ 1278  mkdir -p ~/git/testing ; cd ~/git/testing
+ 1279  touch file
+ 1280  git init
+ 1281  git add .
+ 1282  git commit -m "Initial Commit" -a
+ 1283  ls -lrthF
+ 1284  echo "esto es una prueba" > file
+ 1285  git commit -m "Initial Commit" -a
+ 1286  git commit -m "Initial Commit" file
+ 1287  vi file
+ 1288  git commit -m "Initial Commit" file
+ 1289  git remote add origin ssh://git@git.domain.tld/repository.git
+ 1290  git remote -v
+ 1291  git push origin master
+ 1292  git remote add origin https://github.com/ansonjonel/storeideas.git
+ 1293  git remote delete origin
+ 1294  git remote remove origin
+ 1295  git remote add origin https://github.com/ansonjonel/storeideas.git
+ 1296  git remote -v
+ 1297  git push origin master
+ 1298  git remote -v
+ 1299  git push origin master
+ 1300  git fetch origin master
+ 1301  git merge origin master
+ 1302  git fetch origin master:tmp
+ 1303  git rebase tmp
+ 1304  git push origin HEAD:master
+ 1305  git branch -D tmp
+ 1306  git push origin master
+ 1307  vi estoy_creando_otro_file_30012018.txt
+ 1308  git commit -am "nuevo file creado"
+ 1309  git add .
+ 1310  git commit -am "nuevo file creado"
+ 1311  git push origin master
+ 1312  history
+
